@@ -8,11 +8,11 @@ fi
 
 clear
 echo "========================================================================="
-echo "Add Virtual Host for LTANMP  ,  Written xiaohuai.org "
+echo "Add Virtual Host for LTANMP  ,  Written Pulseasy.xyz "
 echo "========================================================================="
 echo "LTANMP is a tool to auto-compile & install Tengine+Nginx+MySQL+PHP on Linux "
 echo "This script is a tool to add virtual host for ltanmp "
-echo "For more information please visit http://www.ltanmp.com/"
+echo "For more information please visit http://www.pulseasy.xyz/"
 echo ""
 echo "========================================================================="
 
@@ -184,7 +184,7 @@ fi
 
 	if [ "$add_more_domainame" = 'y' ]; then
 
-	  echo "Type domainname,example(my.xiaohuai.com blog.xiaohuai.com):"
+	  echo "Type domainname,example(my.pulseasy.ml blog.pulseasy.ml):"
 	  read moredomain
           echo "==========================="
           echo domain list="$moredomain"
@@ -335,9 +335,9 @@ chmod 0751 /home
 /etc/init.d/php-fpm restart
 
 echo "========================================================================="
-echo "Add Virtual Host for LTANMP  ,  Written xiaohuai.org "
+echo "Add Virtual Host for LTANMP  ,  Written Pulseasy.xyz "
 echo "========================================================================="
-echo "For more information please visit http://www.ltanmp.com/"
+echo "For more information please visit http://www.pulseasy.xyz/"
 echo ""
 echo "Your domain:$domain"
 echo "Directory of $domain:$vhostdir"
